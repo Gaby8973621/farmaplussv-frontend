@@ -1,0 +1,42 @@
+.cuenta-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.cuenta-btn {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  color: #1a1a1a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem;
+}
+
+.cuenta-menu {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  z-index: 1000;
+  width: 180px;
+}
+
+.cuenta-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: #222;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  gap: 0.6rem;
+}
+
+.cuenta-item:hover {
+  background-color: #f3f3f3;
+}
